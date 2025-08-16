@@ -79,8 +79,8 @@ The server will run on `http://localhost:8000` by default.
 
 ## Model & Config Notes
 
-- **Model:** Uses a local or cloud-hosted LLM (e.g., OpenAI, HuggingFace Transformers).
+- **Model:** Uses Gemini 2.5 Flash model
 - **Vector Store:** Embeddings are stored using Chroma DB
-- **Configuration:** Update `config.py` for model endpoints, API keys, and vector DB settings.
+- **Configuration:** Update `config.py` for API keys, Models and vector DB settings.
 - **Supported Formats:** PDF
 ---
