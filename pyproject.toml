@@ -1,0 +1,16 @@
+[project]
+name = "rag-app"
+version = "0.1.0"
+description = "RAG application using fastapi"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "chromadb>=1.0.17",
+    "dotenv>=0.9.9",
+    "fastapi[standard]>=0.116.1",
+    "google-genai>=1.30.0",
+    "pandas>=2.3.1",
+    "pymupdf>=1.26.3",
+    "pypdf2>=3.0.1",
+    "unicorn[standard]>=2.1.3",
+]
