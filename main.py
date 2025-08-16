@@ -1,4 +1,4 @@
-from fastapi import FastAPI, UploadFile, File, Form, HTTPException
+from fastapi import FastAPI, UploadFile, File, HTTPException
 from ingestion import ingest_pdf
 from retrieval import get_relevant_contents, make_prompt
 from gemini_service import ask_gemini
