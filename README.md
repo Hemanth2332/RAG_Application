@@ -12,7 +12,7 @@ This app allows you to upload PDFs and ask natural language questions. It retrie
 
 1. **Clone the repository:**
     ```bash
-    git clone https://github.com/yourusername/rag_app.git
+    git clone https://github.com/Hemanth2332/RAG_Application
     cd rag_app
     ```
 
