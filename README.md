@@ -87,11 +87,11 @@ The server will run on `http://localhost:8000` by default.
 
 ```json
 {
-    "query": "What makes this architecture unique?"
-    "answer": "**VGG16** stands out for its **consistent and simple structure**. It repeatedly uses the same small (3x3) convolution filters and max pool layers throughout its 16 layers. This uniform design makes it very deep and results in a large number of parameters (around 138 million).
-
-**DenseNet-121** is unique because of its **"densely connected" design**. Instead of traditional sequential layers, every layer in a DenseNet is directly connected to all preceding layers. It achieves this by concatenating the feature maps from all previous layers and using them as input. This unique connection method allows DenseNets to be more parameter-efficient than comparable networks.",
-    "context": ["1. significant number of hyper-parameters is the aspect of VGG16 that stands out the most. The number 16 in VGG16 refers to the fact that the structure is comprised....", ]
+  "query": "What makes this architecture unique?",
+  "answer": "**VGG16** stands out for its **consistent and simple structure**. It repeatedly uses the same small (3x3) convolution filters and max pool layers throughout its 16 layers. This uniform design makes it very deep and results in a large number of parameters (around 138 million).\n\n**DenseNet-121** is unique because of its **\"densely connected\" design**. Instead of traditional sequential layers, every layer in a DenseNet is directly connected to all preceding layers. It achieves this by concatenating the feature maps from all previous layers and using them as input. This unique connection method allows DenseNets to be more parameter-efficient than comparable networks.",
+  "context": [
+    "1. significant number of hyper-parameters is the aspect of VGG16 that stands out the most. The number 16 in VGG16 refers to the fact that the structure is comprised...."
+  ]
 }
 ```
 
