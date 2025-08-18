@@ -3,10 +3,10 @@
 This app allows you to upload PDFs and ask natural language questions. It retrieves relevant document chunks using ChromaDB and augments LLM responses with grounded context.
 
 ## Features
-- 🔹 Batch processing of multiple PDFs in one go  
-- 🔹 SHA-based hashing to uniquely track uploaded documents  
-- 🔹 Custom chunking logic for more accurate retrieval  
-- 🔹 REST API built with FastAPI, optimized for validation & error handling
+- Batch processing of multiple PDFs in one go  
+- SHA-based hashing to uniquely track uploaded documents  
+- Custom chunking logic for more accurate retrieval  
+- REST API built with FastAPI, optimized for validation & error handling
 
 ## Setup
 
