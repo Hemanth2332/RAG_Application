@@ -35,7 +35,7 @@ def get_db_path(db_name: str) -> str:
     return os.path.join(DB_BASE_PATH, db_name)
 
 
-def create_chroma_db(documents, name, batch_size=20):
+def create_chroma_db(documents, name, batch_size=50): #change this to 10 if not working properly
     db_path = get_db_path(name)
     client = chromadb.PersistentClient(path=db_path)
     collection = client.get_or_create_collection(
